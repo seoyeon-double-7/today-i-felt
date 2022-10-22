@@ -5,7 +5,7 @@ class FeelingList extends React.Component {
   render() {
     return (
       <div className="feeling-list">
-        <h1>Feeling List</h1>
+        <h1>Feeling List!</h1>
       </div>
     );
   }
