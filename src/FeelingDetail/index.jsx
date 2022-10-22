@@ -5,7 +5,19 @@ class FeelingDetail extends React.Component {
   render() {
     return (
       <div className="feeling-detail">
-        <h1>Feeling Detail</h1>
+        <div className="title">
+          <h1>
+            Today
+            <br />
+            I
+            <br />
+            Felt
+          </h1>
+          <div className="owner-name">
+            <span>Name:</span>
+            <input type="text" maxLength={5} />
+          </div>
+        </div>
       </div>
     );
   }
