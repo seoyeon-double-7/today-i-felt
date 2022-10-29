@@ -14,7 +14,7 @@ class FeelingDetail extends React.Component {
             Felt
           </h1>
           <div className="owner-name">
-            <strong>Name : </strong>
+            <strong>Name:</strong>
             <input type="text" maxLength={5} />
           </div>
         </div>
