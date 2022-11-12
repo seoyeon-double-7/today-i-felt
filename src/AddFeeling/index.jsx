@@ -12,6 +12,7 @@ class AddFeeling extends React.Component {
         <div>기분</div>
         <div>
           <input type="radio" />
+          <img src={`${process.env.PUBLIC_URL}/images/feeling-good.svg`} alt="" />
         </div>
         <div>있었던 일</div>
         <div className="what-happened"><textarea /></div>
