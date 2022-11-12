@@ -1,0 +1,11 @@
+.add-feeling{
+  display: grid;
+  grid-template-columns:80px 1fr ;
+  row-gap: 12px;
+  column-gap: 8px;
+  padding: 40px 20px;
+}
+
+.what-happened{
+  grid-column: 1/3;
+}
