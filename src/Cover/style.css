@@ -1,13 +1,3 @@
-.feeling-detail {
-  background: white;
-  flex: 3;
-  box-shadow: 0 -2px 8px rgba(0, 0, 0, 50%);
-  /* position: relative; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .title {
   width: 360px;
   height: 360px;
@@ -44,6 +34,7 @@
   border: none;
   margin-left: 1ch;
   font-size: inherit;
+  text-align: right;
 }
 
 .owner-name>input:focus {

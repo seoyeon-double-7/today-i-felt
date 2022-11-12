@@ -1,6 +1,6 @@
 import React from 'react';
 import FeelingList from '../FeelingList';
-import FeelingDetail from '../FeelingDetail';
+import CurrentContents from '../CurrentContents';
 import './style.css';
 
 class App extends React.Component {
@@ -8,7 +8,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <FeelingList />
-        <FeelingDetail />
+        <CurrentContents />
       </div>
     );
   }

@@ -1,14 +1,14 @@
 import React from 'react';
 import './style.css';
 
-class FeelingDetail extends React.Component {
+class Cover extends React.Component {
   saveName(name) {
     window.localStorage.setItem('owner-name', name);
   }
 
   render() {
     return (
-      <div className="feeling-detail">
+      <div className="cover">
         <div className="title">
           <h1>
             Today
@@ -35,4 +35,4 @@ class FeelingDetail extends React.Component {
   }
 }
 
-export default FeelingDetail;
+export default Cover;
